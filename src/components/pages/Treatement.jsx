@@ -1,30 +1,41 @@
 import React from 'react';
+import Cardiology from '../../assets/TretementImages/Cardiology.jpg';
+import Orthopedics from '../../assets/TretementImages/Orthopedics.jpg';
+import Neurology from '../../assets/TretementImages/Neurology.jpg';
+import Dermatology from '../../assets/TretementImages/Dermatology.jpg';
+import Pediatrics from '../../assets/TretementImages/Pediatrics.jpg';
+import Dentistry from '../../assets/TretementImages/Dentistry.jpg';
 
 const treatments = [
     {
         title: 'Cardiology',
         description: 'Our cardiology department provides comprehensive heart care, from diagnostics to surgery and rehabilitation.',
-        image: 'https://www.orfonline.org/public/uploads/default.jpg',
+        image: Cardiology,
     },
     {
         title: 'Orthopedics',
         description: 'We treat bone, joint, and spine issues with advanced surgical and non-surgical methods.',
-        image: 'https://www.orfonline.org/public/uploads/default.jpg',
+        image: Orthopedics,
     },
     {
         title: 'Neurology',
         description: 'Expert care for brain and nervous system conditions including epilepsy, stroke, and Parkinson’s disease.',
-        image: 'https://www.orfonline.org/public/uploads/default.jpg',
+        image: Neurology,
     },
     {
         title: 'Dermatology',
         description: 'Comprehensive skin care including acne, eczema, cosmetic treatments, and skin cancer screening.',
-        image: 'https://www.orfonline.org/public/uploads/default.jpg',
+        image: Dermatology,
     },
     {
         title: 'Pediatrics',
         description: 'Full pediatric care for newborns to teenagers by experienced child specialists.',
-        image: 'https://www.orfonline.org/public/uploads/default.jpg',
+        image: Pediatrics,
+    },
+    {
+        title: 'Dentistry',
+        description: 'We provide advanced dental care for all age groups.',
+        image: Dentistry,
     },
 ];
 

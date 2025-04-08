@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom'; // ✅ Removed BrowserRouter here
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -21,7 +21,7 @@ import VideoConsulting from './components/pages/VideoConsulting';
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
 
       <Routes>
@@ -55,7 +55,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </>
+    </Router>
   );
 }
 
